@@ -1,0 +1,23 @@
+{
+  "name": "suitedbooted",
+  "version": "1.0.0",
+  "description": "landing page ",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass": "node-sass sass/main.scss css/style.css -w",
+    "compile:sass": "node-sass sass/main.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sanjeev-Chadeesingh/suitedBooted.git"
+  },
+  "author": "Sanjeev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sanjeev-Chadeesingh/suitedBooted/issues"
+  },
+  "homepage": "https://github.com/Sanjeev-Chadeesingh/suitedBooted#readme",
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
