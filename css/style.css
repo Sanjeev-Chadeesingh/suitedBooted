@@ -1,2 +1,9 @@
-.test {
-  color: blue; }
+.jumbotron {
+  background-image: url(../../img/header-image.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom; }
+  .jumbotron__header {
+    color: white; }
+  .jumbotron__lead {
+    color: white; }
