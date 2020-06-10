@@ -1,3 +1,18 @@
+nav {
+    .navbar-brand {
+        font-size: 3rem;
+
+        .big {
+            font-size: 4rem;
+        }
+    }
+
+    .item-link {
+        font-size: 1.75rem !important;
+    }
+}
+
+
 .jumbotron {
     background-image: linear-gradient(rgba($color-black, .65), rgba($color-black, .65)), url(../../img/header-image.jpg);
     background-size: cover;
@@ -15,7 +30,7 @@
         font-family: $font-primary;
 
         &--header {
-            font-size: 9rem;
+            font-size: 7rem;
             font-weight: 700;
         }
 
