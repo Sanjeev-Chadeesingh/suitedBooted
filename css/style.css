@@ -18,13 +18,14 @@ body {
   font-family: "Noto Sans", sans-serif;
   font-size: 1.5rem; }
 
-nav .navbar-brand {
-  font-size: 3rem; }
-  nav .navbar-brand .big {
-    font-size: 4rem; }
-
-nav .item-link {
-  font-size: 1.75rem !important; }
+nav {
+  margin-bottom: 5rem; }
+  nav .navbar-brand {
+    font-size: 3rem; }
+    nav .navbar-brand .big {
+      font-size: 4rem; }
+  nav .item-link {
+    font-size: 1.75rem !important; }
 
 .jumbotron {
   background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../../img/header-image.jpg);
@@ -50,4 +51,4 @@ nav .item-link {
   margin-top: 7.5rem;
   margin-bottom: 4.5rem; }
   .section__about .icon-large {
-    font-size: 4rem; }
+    font-size: 3rem; }
