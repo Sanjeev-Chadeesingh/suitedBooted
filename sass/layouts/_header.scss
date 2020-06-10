@@ -1,12 +1,26 @@
 .jumbotron {
-    background-image: url(../../img/header-image.jpg);
+    background-image: linear-gradient(rgba($color-black, .65), rgba($color-black, .65)), url(../../img/header-image.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
-    &__header {
+    height: 70vh;
+    position: relative;
+
+    &__copyBox {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
         color: white;
-    }
-    &__lead {
-        color: white;
+        font-family: $font-primary;
+
+        &--header {
+            font-size: 9rem;
+            font-weight: 700;
+        }
+
+        &--lead {
+            font-size: 2.25rem;
+        }
     }
 }

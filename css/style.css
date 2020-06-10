@@ -1,9 +1,35 @@
+/*
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Patua One', cursive;
+*/
+* {
+  margin: 0;
+  padding: 0; }
+
+*::before,
+*::after {
+  box-sizing: inherit; }
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; }
+
 .jumbotron {
-  background-image: url(../../img/header-image.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../../img/header-image.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: bottom; }
-  .jumbotron__header {
-    color: white; }
-  .jumbotron__lead {
-    color: white; }
+  background-position: bottom;
+  height: 70vh;
+  position: relative; }
+  .jumbotron__copyBox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: "Noto Sans", sans-serif; }
+    .jumbotron__copyBox--header {
+      font-size: 9rem;
+      font-weight: 700; }
+    .jumbotron__copyBox--lead {
+      font-size: 2.25rem; }
