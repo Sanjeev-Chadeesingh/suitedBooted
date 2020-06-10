@@ -14,6 +14,10 @@ html {
   box-sizing: border-box;
   font-size: 62.5%; }
 
+body {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1.5rem; }
+
 nav .navbar-brand {
   font-size: 3rem; }
   nav .navbar-brand .big {
@@ -37,7 +41,13 @@ nav .item-link {
     color: white;
     font-family: "Noto Sans", sans-serif; }
     .jumbotron__copyBox--header {
-      font-size: 7rem;
+      font-size: 7.5rem;
       font-weight: 700; }
     .jumbotron__copyBox--lead {
       font-size: 2.25rem; }
+
+.section__about {
+  margin-top: 7.5rem;
+  margin-bottom: 4.5rem; }
+  .section__about .icon-large {
+    font-size: 4rem; }
