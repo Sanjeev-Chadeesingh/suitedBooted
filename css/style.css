@@ -18,13 +18,13 @@ body {
   font-family: "Noto Sans", sans-serif;
   font-size: 1.5rem; }
 
-nav {
+.navbar {
   margin-bottom: 5rem; }
-  nav .navbar-brand {
+  .navbar .navbar-brand {
     font-size: 3rem; }
-    nav .navbar-brand .big {
+    .navbar .navbar-brand .big {
       font-size: 4rem; }
-  nav .item-link {
+  .navbar .item-link {
     font-size: 1.75rem !important; }
 
 .jumbotron {
@@ -54,5 +54,9 @@ nav {
     font-size: 3rem; }
 
 .section__suits {
+  margin-top: 7.5rem;
+  margin-bottom: 4.5rem; }
+
+.section__boots {
   margin-top: 7.5rem;
   margin-bottom: 4.5rem; }
